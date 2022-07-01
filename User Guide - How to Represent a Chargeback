@@ -1,0 +1,48 @@
+# How to Assign a Chargeback
+A Bolt internal user guide
+
+## Overview
+Merchants submit representment requests when they recieve an email from Bolt notifying them of the chargeback, and they disagree with the cardholder's claim. They respond to the email directly, or email chargebacks@bolt.com with all documentation they find relevant. This guide will teach you how to properly assign out a chargeback representment request both in Zendesk and in Vantiv.
+
+### 1. Get to the unassigned requests.
+
+* Navigate to bolt-inc.okta.com/app/UserHome and click the "Zendesk" icon.
+* Navigate to "views" by clicking the "views" icon underneath the "home" in the sidebar. It looks like a square letter and envelope. 
+* Click on the "chargeback unassigned tickets" view.
+* You have found the unassigned chargeback requests! Woohoo.
+
+### 2. Click on a ticket to open.
+
+### 3. Send initial response to the merchant.
+Our SLA requires that we send our first reply to merchants within four business hours. For more information on SLAs, please see [our performance standards here] (https://boltpay.atlassian.net/wiki/spaces/CE/pages/2289238234/Support+and+Risk+Ticketing+Performance+Standards "Ticketing Performance Standards")
+
+* Ensure that your response is a public reply, rather than an internal note. The text box will be labeled "public reply" and appear white. If it's an internal note, the text box will be labeled "internal note" and appear light yellow.
+* Click the bottom toolbar that reads "Apply macro". Scroll down to the "Chargebacks" category. Click the macro "Acknowledge". The macro will populate in the textbox. Click the black button that reads "Submit as Open". You will be redirected automatically to the "chargeback unassigned tickets" view.
+
+### 4. Add relevant links to the Zendesk ticket.
+
+* Reopen that same ticket, and change the response to an internal note by clicking the dropdown button that reads "public reply" and changing to the "internal note" option.
+* Copy + paste the transaction ID in the admin dash to pull up the order internally. Then, copy the admin.bolt URL and paste it into the internal notes textbox.
+* From the transaction page, open up the link under "Vantiv Authorization ID"
+* Open the hyperlink under "ID" that is labeled as the "First Chargeback" type. 
+* Copy and paste the URL for this transaction stream into the internal notes textbox.
+* Keep the Vantiv page open to make step six easier!
+
+### 5. Assign to analyst in Zendesk.
+
+* In the sidebar, click the dropdown button under "assignee". Select the analyst you wish to assign to.
+* Click the dropdown button in the bottom righthand corner to submit as "open".
+* The chargeback has been assigned to their queue and they have been notified of the new assignment!
+
+### 6. Assign to analyst in Vantiv.
+
+It's very important that we assign the chargeback to the analyst in Vantiv for two reasons. (1) It ensures our performance data is accurate and (2) It ensures analysts will be notified of updates to the chargeback, so they can action further and update the merchant as needed.
+
+* In the Vantiv link to the chargeback, click the button with a person on it that reads "assign to user".
+* A new popup will appear. Click on the dropdown menu "assign to" and assign it to the analyst. Click "submit".
+* Confirm the assignment happened properly by seeing the analysts' name under "Assigned to" on the Summary chart on this same webpage.
+
+#### Please keep in mind...
+
+The analyst in charge of assigning out tickets each day is to check the "Unassigned tickets" view and assign tickets out once an hour, and at the beginning and end of each shift.
+We try to keep the chargebacks load evenly distributed across all analysts. Keep track of how many chargebacks are assigned to each analyst each shift and ensure you're distributing tickets evenly among all analysts on shift!
