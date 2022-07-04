@@ -1,5 +1,6 @@
 ## Portfolio Examples
-* [Personal Writing Sample](/v2-personal-writing-sample)
+* [Personal Writing Sample](/personal-writing-sample)
+* [Personal Writing Sample](/My-Portfolio/personal-writing-sample)
 
 ## Welcome to GitHub Pages
 
