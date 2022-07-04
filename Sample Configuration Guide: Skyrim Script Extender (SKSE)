@@ -1,0 +1,44 @@
+# Installing and Running the Skyrim Script Extender (SKSE) on Skyrim 1.6 or Later.
+
+The Skyrim Script Extender is required for many Skyrim mods due to parameters set by Bethesda. SKSE is a plug-in that expands the scripting capabilities (removing the parameters) of the game. This tutorial will teach you how to set up and run SKSE on newer versions of Skyrim, so that you may enjoy the game with any mods you want!
+
+Security concerns: User should always be aware of what third party software they are using and its intentions, especially when it is not endorsed by the game creators. We recommend a healthy dose of skepticism and for modders to do their own research on software! We believe Google is your friend, and that the sheer number of mods run through SKSE is a testament of its security.
+
+*Did you know?* Mods are often not intended to desecrate the integrity of the game. Mods allow gamers to customize however they want, even in very practical ways, such as adding mini-maps, changing keystrokes, or accelerate processing speeds.
+
+## Installing the Skyrim Script Extender (SKSE).
+
+1. Navigate to skse.silverlock.org (or click [here](https://skse.silverlock.org/ "Skyrim Script Extender")
+2. Choose your version: this configuration guide is geared towards 1.5.9v, but this guide is still applicable for other available versions.
+3. Right-click the link and select "save link as", then save to the desktop (or whichever location you'd like).
+4. At this point, this will save as a ".7z" file. This is a compressed archive file, similar to a "zip" file. You'll need an archive managing software tool to decompress this file. We recommend [Winrar](https://www.win-rar.com/start.html?&L=0 "Winrar").
+5. You need to extract the folder. Right click on the ".7z" file and click "Extract Here" (through Winrar). Once clicked, the file will quickly extract, and you will be left with a folder of the same name. You can now delete the archive file.
+6. Open this new folder and the folder where your Skyrim game is installed side-by-side.
+* If you are using Steam, the pathway for your existing game is most likely c:\Program Files > Steam > steamapps > common > skyrim
+* The file you are looking for is TESV.exe (sometimes this displays simply as "TESV" depending on your computer's settings)
+7. In the folder you downloaded, select all files with "skse_". Copy these files from the downloaded folder, and paste into your Skyrim folder.
+7a. If you already have a version of SKSE installed, you'll need to choose "copy and replace". If you do not, the files should paste without this additional prompt.
+8. From the downloaded file, copy the "Data" folder, and paste it into your Skyrim folder. The "Data" folder is full of the SKSE scripts needed to make the software function. 
+* Please note: This does override your game files. If you'd like an extra layer of security to keep your old files in case something breaks, you can use Winrar to add to your archive, and install using the Nexus Mod Manager.
+
+## Setting up the Skyrim Script Extender (SKSE) to Run.
+To ensure your game is launched with the SKSE running, *Skyrim will need to be launched from the skseloader.exe file.* This is located in your Skyrim folder. However, if you'd like it to be as easily accessible as the base game, we recommend adding a thumbnail to your desktop!
+
+1. Right-click on the file (skseload.exe) and select send to > Desktop (create shortcut).
+2. Move the file to wherever you'd like on your screen, we like to place it next to the original game thumbnail.
+3. Rename it to whatever you'd like. We recommend "SKSE" or something similar so you know which thumbnail as the script extender running.
+4. If you want to make the icon match the base game:
+* right click the icon and select properties > change icon > OK
+* click "browse" and navigate to your games folder (if you're on steam, the path is steam > steam > games) and pick your icon (of course, we recommend the Skyrim icon).
+* To run the game with SKSE: Double click the new icon.
+
+## Double check that SKSE is running.
+
+1. Launch Skyrim from the SKSE file if you haven't already.
+2. Use the console to check if SKSE is running. You open the console by pressing the tilda (~) key. If you're using an international keyboard, use the key directly to the left of your "1" key. A cursor will appear in the bottom lefthand corner.
+3. Type "GetSKSEVersion" with no spaces and press enter.
+4. The console willl report the version of SKSE you are running. If you used the same version as us, this will display as "SKSE version: 1.5.9, release idx 25, runtime 06590000."
+* If the game is not running with SKSE, it will say "unknown" or something similar. Close the game and ensure you're opening the correct file.
+5. Close the console by pressing the tilda key again.
+
+That's it! You should now be able to run your game with any mods that require SKSE. Go explore some mods and have fun.
